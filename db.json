@@ -1,5 +1,4 @@
-{
-    "products": [
+ [
     {
       "id": 1,
       "product_name": "Soup Campbells Beef With Veg",
@@ -81,4 +80,4 @@
       "likes": 33
     }
   ]
-}
+
