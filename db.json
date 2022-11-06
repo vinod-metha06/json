@@ -1,83 +1,711 @@
- [
+{
+  "branches": [
+    {
+      "latitude": 28.7041,
+      "longitude": 77.1025,
+      "title": "Branch 1",
+      "description": "This is Branch 1",
+      "id": 1,
+      "serviceArea": 1000
+    }
+  ],
+  "users": [
+    {
+      "email": "abc@def.com",
+      "password": "$2a$10$9kUOQjAzIJTW8Qh2DEXo6ev4g4/.zJkCH1xGgcBHO1jR2Q4lxhUUm",
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "user": {
+        "firstname": "Dasdsad",
+        "lastname": "Sad sad",
+        "email": "Ads ads",
+        "phoneno": "Dasdsad"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 1,
+            "name": "Dates",
+            "category": "Kale - Red",
+            "price": 44,
+            "rating": 7,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+          },
+          "quantity": 7
+        },
+        {
+          "product": {
+            "id": 2,
+            "name": "Bread - Multigrain Oval",
+            "category": "Pasta - Fett Alfredo, Single Serve",
+            "price": 56,
+            "rating": 5,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 2
+        },
+        {
+          "product": {
+            "id": 3,
+            "name": "Lid Tray - 16in Dome",
+            "category": "Coffee Cup 8oz 5338cd",
+            "price": 57,
+            "rating": 6,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+          },
+          "quantity": 4
+        },
+        {
+          "product": {
+            "id": 4,
+            "name": "Bar Energy Chocchip",
+            "category": "Cumin - Ground",
+            "price": 74,
+            "rating": 11,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 16,
+            "name": "Shrimp - Black Tiger 6 - 8",
+            "category": "Soup - Tomato Mush. Florentine",
+            "price": 66,
+            "rating": 5,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 17,
+            "name": "Pail - 4l White, With Handle",
+            "category": "Nutmeg - Ground",
+            "price": 20,
+            "rating": 10,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 18,
+            "name": "Coconut - Shredded, Sweet",
+            "category": "Calypso - Black Cherry Lemonade",
+            "price": 62,
+            "rating": 9,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "user": {
+        "firstname": "",
+        "lastname": "Sad sad",
+        "email": "Ads ads",
+        "phoneno": "Dasdsad"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 1,
+            "name": "Dates",
+            "category": "Kale - Red",
+            "price": 44,
+            "rating": 7,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+          },
+          "quantity": 7
+        },
+        {
+          "product": {
+            "id": 2,
+            "name": "Bread - Multigrain Oval",
+            "category": "Pasta - Fett Alfredo, Single Serve",
+            "price": 56,
+            "rating": 5,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 2
+        },
+        {
+          "product": {
+            "id": 3,
+            "name": "Lid Tray - 16in Dome",
+            "category": "Coffee Cup 8oz 5338cd",
+            "price": 57,
+            "rating": 6,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+          },
+          "quantity": 4
+        },
+        {
+          "product": {
+            "id": 4,
+            "name": "Bar Energy Chocchip",
+            "category": "Cumin - Ground",
+            "price": 74,
+            "rating": 11,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 16,
+            "name": "Shrimp - Black Tiger 6 - 8",
+            "category": "Soup - Tomato Mush. Florentine",
+            "price": 66,
+            "rating": 5,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 17,
+            "name": "Pail - 4l White, With Handle",
+            "category": "Nutmeg - Ground",
+            "price": 20,
+            "rating": 10,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 18,
+            "name": "Coconut - Shredded, Sweet",
+            "category": "Calypso - Black Cherry Lemonade",
+            "price": 62,
+            "rating": 9,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "user": {
+        "firstname": "",
+        "lastname": "Sad sad",
+        "email": "Ads ads",
+        "phoneno": "Dasdsad"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 1,
+            "name": "Dates",
+            "category": "Kale - Red",
+            "price": 44,
+            "rating": 7,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+          },
+          "quantity": 7
+        },
+        {
+          "product": {
+            "id": 2,
+            "name": "Bread - Multigrain Oval",
+            "category": "Pasta - Fett Alfredo, Single Serve",
+            "price": 56,
+            "rating": 5,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 2
+        },
+        {
+          "product": {
+            "id": 3,
+            "name": "Lid Tray - 16in Dome",
+            "category": "Coffee Cup 8oz 5338cd",
+            "price": 57,
+            "rating": 6,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+          },
+          "quantity": 4
+        },
+        {
+          "product": {
+            "id": 4,
+            "name": "Bar Energy Chocchip",
+            "category": "Cumin - Ground",
+            "price": 74,
+            "rating": 11,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 16,
+            "name": "Shrimp - Black Tiger 6 - 8",
+            "category": "Soup - Tomato Mush. Florentine",
+            "price": 66,
+            "rating": 5,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 17,
+            "name": "Pail - 4l White, With Handle",
+            "category": "Nutmeg - Ground",
+            "price": 20,
+            "rating": 10,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 18,
+            "name": "Coconut - Shredded, Sweet",
+            "category": "Calypso - Black Cherry Lemonade",
+            "price": 62,
+            "rating": 9,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "user": {
+        "firstname": "",
+        "lastname": "Sad sad",
+        "email": "Ads ads",
+        "phoneno": "Dasdsad"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 1,
+            "name": "Dates",
+            "category": "Kale - Red",
+            "price": 44,
+            "rating": 7,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+          },
+          "quantity": 7
+        },
+        {
+          "product": {
+            "id": 2,
+            "name": "Bread - Multigrain Oval",
+            "category": "Pasta - Fett Alfredo, Single Serve",
+            "price": 56,
+            "rating": 5,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 2
+        },
+        {
+          "product": {
+            "id": 3,
+            "name": "Lid Tray - 16in Dome",
+            "category": "Coffee Cup 8oz 5338cd",
+            "price": 57,
+            "rating": 6,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+          },
+          "quantity": 4
+        },
+        {
+          "product": {
+            "id": 4,
+            "name": "Bar Energy Chocchip",
+            "category": "Cumin - Ground",
+            "price": 74,
+            "rating": 11,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 16,
+            "name": "Shrimp - Black Tiger 6 - 8",
+            "category": "Soup - Tomato Mush. Florentine",
+            "price": 66,
+            "rating": 5,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 17,
+            "name": "Pail - 4l White, With Handle",
+            "category": "Nutmeg - Ground",
+            "price": 20,
+            "rating": 10,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 18,
+            "name": "Coconut - Shredded, Sweet",
+            "category": "Calypso - Black Cherry Lemonade",
+            "price": 62,
+            "rating": 9,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 4
+    },
+    {
+      "user": {
+        "firstname": "",
+        "lastname": "Sad sad",
+        "email": "Ads ads",
+        "phoneno": "Dasdsad"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 1,
+            "name": "Dates",
+            "category": "Kale - Red",
+            "price": 44,
+            "rating": 7,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+          },
+          "quantity": 7
+        },
+        {
+          "product": {
+            "id": 2,
+            "name": "Bread - Multigrain Oval",
+            "category": "Pasta - Fett Alfredo, Single Serve",
+            "price": 56,
+            "rating": 5,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 2
+        },
+        {
+          "product": {
+            "id": 3,
+            "name": "Lid Tray - 16in Dome",
+            "category": "Coffee Cup 8oz 5338cd",
+            "price": 57,
+            "rating": 6,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+          },
+          "quantity": 4
+        },
+        {
+          "product": {
+            "id": 4,
+            "name": "Bar Energy Chocchip",
+            "category": "Cumin - Ground",
+            "price": 74,
+            "rating": 11,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 16,
+            "name": "Shrimp - Black Tiger 6 - 8",
+            "category": "Soup - Tomato Mush. Florentine",
+            "price": 66,
+            "rating": 5,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 17,
+            "name": "Pail - 4l White, With Handle",
+            "category": "Nutmeg - Ground",
+            "price": 20,
+            "rating": 10,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 18,
+            "name": "Coconut - Shredded, Sweet",
+            "category": "Calypso - Black Cherry Lemonade",
+            "price": 62,
+            "rating": 9,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 5
+    },
+    {
+      "user": {
+        "firstname": "Dad",
+        "lastname": "Sass",
+        "email": "Dasdsad",
+        "phoneno": "Dasdad"
+      },
+      "items": [
+        {
+          "product": {
+            "id": 1,
+            "name": "Dates",
+            "category": "Kale - Red",
+            "price": 44,
+            "rating": 7,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+          },
+          "quantity": 7
+        },
+        {
+          "product": {
+            "id": 2,
+            "name": "Bread - Multigrain Oval",
+            "category": "Pasta - Fett Alfredo, Single Serve",
+            "price": 56,
+            "rating": 5,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 2
+        },
+        {
+          "product": {
+            "id": 3,
+            "name": "Lid Tray - 16in Dome",
+            "category": "Coffee Cup 8oz 5338cd",
+            "price": 57,
+            "rating": 6,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+          },
+          "quantity": 4
+        },
+        {
+          "product": {
+            "id": 4,
+            "name": "Bar Energy Chocchip",
+            "category": "Cumin - Ground",
+            "price": 74,
+            "rating": 11,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 16,
+            "name": "Shrimp - Black Tiger 6 - 8",
+            "category": "Soup - Tomato Mush. Florentine",
+            "price": 66,
+            "rating": 5,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 17,
+            "name": "Pail - 4l White, With Handle",
+            "category": "Nutmeg - Ground",
+            "price": 20,
+            "rating": 10,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 18,
+            "name": "Coconut - Shredded, Sweet",
+            "category": "Calypso - Black Cherry Lemonade",
+            "price": 62,
+            "rating": 9,
+            "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 6
+    }
+  ],
+  "products": [
     {
       "id": 1,
-      "product_name": "Soup Campbells Beef With Veg",
-      "price": 81,
-      "rating": 4,
-      "product_image": "http://dummyimage.com/181x100.png/5fa2dd/ffffff",
-      "likes": 13
+      "name": "Dates",
+      "category": "Kale - Red",
+      "price": 44,
+      "rating": 7,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/ff4444/ffffff"
     },
     {
       "id": 2,
-      "product_name": "Sugar - Palm",
-      "price": 5,
-      "rating": 3,
-      "product_image": "http://dummyimage.com/199x100.png/5fa2dd/ffffff",
-      "likes": 54
+      "name": "Bread - Multigrain Oval",
+      "category": "Pasta - Fett Alfredo, Single Serve",
+      "price": 56,
+      "rating": 5,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
     },
     {
       "id": 3,
-      "product_name": "Nectarines",
-      "price": 29,
-      "rating": 4,
-      "product_image": "http://dummyimage.com/238x100.png/dddddd/000000",
-      "likes": 38
+      "name": "Lid Tray - 16in Dome",
+      "category": "Coffee Cup 8oz 5338cd",
+      "price": 57,
+      "rating": 6,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/ff4444/ffffff"
     },
     {
       "id": 4,
-      "product_name": "Yeast - Fresh, Fleischman",
-      "price": 16,
-      "rating": 3,
-      "product_image": "http://dummyimage.com/182x100.png/ff4444/ffffff",
-      "likes": 55
+      "name": "Bar Energy Chocchip",
+      "category": "Cumin - Ground",
+      "price": 74,
+      "rating": 11,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/cc0000/ffffff"
     },
     {
       "id": 5,
-      "product_name": "Ecolab - Lime - A - Way 4/4 L",
-      "price": 7,
-      "rating": 4,
-      "product_image": "http://dummyimage.com/138x100.png/cc0000/ffffff",
-      "likes": 40
+      "name": "Creme De Menthe Green",
+      "category": "Yogurt - Assorted Pack",
+      "price": 78,
+      "rating": 11,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
     },
     {
       "id": 6,
-      "product_name": "Wine - Baron De Rothschild",
-      "price": 60,
-      "rating": 5,
-      "product_image": "http://dummyimage.com/248x100.png/ff4444/ffffff",
-      "likes": 55
+      "name": "Nantucket Orange Juice",
+      "category": "Chocolate - Milk Coating",
+      "price": 40,
+      "rating": 10,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/cc0000/ffffff"
     },
     {
       "id": 7,
-      "product_name": "Heavy Duty Dust Pan",
-      "price": 77,
-      "rating": 4,
-      "product_image": "http://dummyimage.com/229x100.png/ff4444/ffffff",
-      "likes": 23
+      "name": "Island Oasis - Cappucino Mix",
+      "category": "Spice - Pepper Portions",
+      "price": 92,
+      "rating": 8,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
     },
     {
       "id": 8,
-      "product_name": "Cleaner - Lime Away",
-      "price": 29,
-      "rating": 5,
-      "product_image": "http://dummyimage.com/132x100.png/dddddd/000000",
-      "likes": 60
+      "name": "Wine - Champagne Brut Veuve",
+      "category": "Muffin Hinge 117n",
+      "price": 54,
+      "rating": 2,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
     },
     {
       "id": 9,
-      "product_name": "Pasta - Fusili Tri - Coloured",
-      "price": 38,
-      "rating": 5,
-      "product_image": "http://dummyimage.com/113x100.png/dddddd/000000",
-      "likes": 88
+      "name": "Longos - Chicken Cordon Bleu",
+      "category": "Chips Potato Salt Vinegar 43g",
+      "price": 56,
+      "rating": 6,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
     },
     {
       "id": 10,
-      "product_name": "Chocolate Eclairs",
-      "price": 22,
-      "rating": 2,
-      "product_image": "http://dummyimage.com/232x100.png/cc0000/ffffff",
-      "likes": 33
+      "name": "Sugar - Sweet N Low, Individual",
+      "category": "Pear - Prickly",
+      "price": 14,
+      "rating": 11,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+    },
+    {
+      "id": 11,
+      "name": "Bread - Burger",
+      "category": "Macaroons - Homestyle Two Bit",
+      "price": 46,
+      "rating": 8,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+    },
+    {
+      "id": 12,
+      "name": "Wine - Malbec Trapiche Reserve",
+      "category": "Bread Foccacia Whole",
+      "price": 48,
+      "rating": 1,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+    },
+    {
+      "id": 13,
+      "name": "Ostrich - Fan Fillet",
+      "category": "Apricots - Halves",
+      "price": 74,
+      "rating": 6,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+    },
+    {
+      "id": 14,
+      "name": "Shrimp - 16 - 20 Cooked, Peeled",
+      "category": "Cheese - Grana Padano",
+      "price": 12,
+      "rating": 4,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/ff4444/ffffff"
+    },
+    {
+      "id": 15,
+      "name": "Bread - Flat Bread",
+      "category": "Red Currant Jelly",
+      "price": 65,
+      "rating": 8,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+    },
+    {
+      "id": 16,
+      "name": "Shrimp - Black Tiger 6 - 8",
+      "category": "Soup - Tomato Mush. Florentine",
+      "price": 66,
+      "rating": 5,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+    },
+    {
+      "id": 17,
+      "name": "Pail - 4l White, With Handle",
+      "category": "Nutmeg - Ground",
+      "price": 20,
+      "rating": 10,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+    },
+    {
+      "id": 18,
+      "name": "Coconut - Shredded, Sweet",
+      "category": "Calypso - Black Cherry Lemonade",
+      "price": 62,
+      "rating": 9,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
+    },
+    {
+      "id": 19,
+      "name": "Green Tea Refresher",
+      "category": "Soup Campbells Turkey Veg.",
+      "price": 92,
+      "rating": 9,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 20,
+      "name": "Wine - Rosso Del Veronese Igt",
+      "category": "Beer - Paulaner Hefeweisse",
+      "price": 30,
+      "rating": 3,
+      "thumbnailImage": "http://dummyimage.com/250x250.png/dddddd/000000"
     }
   ]
-
+}
